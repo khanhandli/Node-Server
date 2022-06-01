@@ -1,9 +1,9 @@
-module.export = {
+module.exports = {
   mysql: {
     host: "...",
   },
   mongodb: {
-    host: "...",
+    URL: process.env.MONGODB_URL,
   },
   oracle: {
     host: "...",
